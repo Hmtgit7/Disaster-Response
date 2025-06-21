@@ -1,11 +1,17 @@
 # Disaster Response Coordination Platform
 
+![Disaster Response Platform](frontend/public/image.png)
+
 A comprehensive MERN stack application for disaster response coordination, featuring real-time data aggregation, geospatial mapping, and AI-powered verification. This platform helps emergency responders, government agencies, and volunteers coordinate disaster response efforts efficiently.
 
 ## 🌟 Live Demo
 
 **Frontend**: [https://disaster-response-dusky.vercel.app/](https://disaster-response-dusky.vercel.app/)  
-**Backend API**: [https://disaster-response-backend.onrender.com](https://disaster-response-backend.onrender.com)
+**Backend API**: [https://disaster-response-7dyd.onrender.com](https://disaster-response-7dyd.onrender.com)
+
+## 📍 Repository
+
+**GitHub**: [https://github.com/Hmtgit7/disaster-response](https://github.com/Hmtgit7/disaster-response)
 
 ## 🚀 Features
 
