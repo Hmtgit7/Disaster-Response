@@ -1,7 +1,11 @@
 import { io, Socket } from 'socket.io-client';
 import { Disaster, SocialMediaPost, Resource, Report } from '../types';
 
-const SOCKET_URL = process.env.REACT_APP_SOCKET_URL || 'http://localhost:5000';
+const SOCKET_URL = process.env.REACT_APP_SOCKET_URL;
+
+if (!SOCKET_URL) {
+  throw new Error("REACT_APP_SOCKET_URL is not defined. Please set it in your .env file.");
+}
 
 class SocketService {
   private socket: Socket | null = null;
